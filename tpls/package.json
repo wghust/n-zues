@@ -1,0 +1,27 @@
+{
+  "name": "zues",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+  },
+  "dependencies": {
+    "express": "~4.2.0",
+    "static-favicon": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "ejs": "~0.8.5"
+  },
+  "devDependencies": {
+    "connect-mongo": "^1.1.0",
+    "crypto": "0.0.3",
+    "express-session": "^1.13.0",
+    "jwt-simple": "^0.5.0",
+    "moment": "^2.12.0",
+    "mongoose": "^4.4.6",
+    "nodemailer": "^2.3.2",
+    "npm": "^3.8.0",
+    "uuid": "^3.1.0"
+  }
+}

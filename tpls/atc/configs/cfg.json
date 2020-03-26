@@ -1,0 +1,32 @@
+{
+  "base": {
+    "desc": "基础配置",
+    "port": 3013,
+    "host": "zues.tongbanjie.com",
+    "cookieSecret": "tongbanjiezues",
+    "staticDateStamp": "?v20180302",
+    "staticFileVersion": "1.0.0"
+  },
+  "db": {
+    "desc": "数据库配置",
+    "type": "mongodb",
+    "config": {
+      "name": "zues",
+      "host": "localhost",
+      "port": "27017"
+    }
+  },
+  "mail": {
+    "desc": "邮箱配置",
+    "service": "QQ",
+    "auth": {
+      "user": "1075296345@qq.com",
+      "pass": ""
+    }
+  },
+  "rootUser": {
+    "username": "止水",
+    "email": "zhishui@tongbanjie.com",
+    "password": "zhishui"
+  }
+}
